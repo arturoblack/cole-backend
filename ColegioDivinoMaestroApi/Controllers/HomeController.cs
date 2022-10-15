@@ -10,7 +10,7 @@ namespace ColegioDivinoMaestroApi.Controllers
         [Route("")]
         public ActionResult<object> HomePage()
         {
-            return Ok(new { hola = "mundo"});
+            return Ok(new { hola = "Conti!!"});
         }
     }
 }
